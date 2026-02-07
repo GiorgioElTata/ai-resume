@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Il mio portfolio</title>
+ 
+  <!-- Colleghiamo il file CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <!-- ===== SEZIONE PORTFOLIO ===== -->
+  <header>
+    <h1>Ciao, sono [TUO NOME]</h1>
+    <p>Sviluppatore / Designer / Quello che vuoi</p>
+  </header>
+ 
+  <section>
+    <h2>Chi sono</h2>
+    <p>
+      Qui scrivi una breve descrizione di te, del tuo background
+      e di cosa ti piace fare.
+    </p>
+  </section>
+ 
+  <section>
+    <h2>Progetti</h2>
+    <ul>
+      <li>Progetto 1 – descrizione</li>
+      <li>Progetto 2 – descrizione</li>
+      <li>Progetto 3 – descrizione</li>
+    </ul>
+  </section>
+ 
+  <!-- ===== SEZIONE CHAT ===== -->
+  <section id="chat">
+    <h2>💬 Chiedimi di me</h2>
+ 
+    <!-- Qui appariranno i messaggi -->
+    <div id="messages"></div>
+ 
+    <!-- Campo di input -->
+    <input
+      type="text"
+      id="userInput"
+      placeholder="Fai una domanda su di me..."
+    />
+ 
+    <!-- Bottone -->
+    <button onclick="sendMessage()">Invia</button>
+  </section>
+ 
+  <!-- Colleghiamo il file JavaScript -->
+  <script src="chat.js"></script>
+</body>
+</html>
+ 
