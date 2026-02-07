@@ -16,7 +16,7 @@ async function sendMessage() {
   input.value = "";
  
   // === CHIAMATA AL BACKEND (PLACEHOLDER) ===
-  try {
+  // try {
     // const response = await fetch("https://TUO-PROGETTO.vercel.app/api/chat", {
     //   method: "POST",
     //   headers: {
