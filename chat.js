@@ -31,7 +31,7 @@ async function sendMessage() {
  
     // Mostriamo la risposta dell'AI
     // addMessage("AI", data.reply);
-    addMessage("AI", UserMessage);
+    addMessage("AI", userMessage);
  
   } catch (error) {
     addMessage("Errore", "Impossibile contattare il server.");
