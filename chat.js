@@ -8,7 +8,7 @@ async function sendMessage() {
   input.value = "";
 
   try {
-    const response = await fetch("https://ai-resume-backend-alpha.vercel.app/api/ask", {
+    const response = await fetch("https://ai-resume-backend-alpha.vercel.app/ask", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
