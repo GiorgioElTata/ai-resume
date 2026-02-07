@@ -22,7 +22,7 @@ async function sendMessage() {
     const data = await response.json();
  
     // Mostriamo la risposta dell'AI
-    addMessage("AI", data.reply);
+    addMessage("AI", data.content);
  
   } catch (error) {
     addMessage("Errore", "Impossibile contattare il server.");
